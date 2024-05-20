@@ -1,0 +1,26 @@
+node_modules: a folder for our dependencies
+test: is where nestjs suggest you put your end-to-end tests.
+boilerplate files: for package management, typescript configuration, and static code checking.
+
+///////////////////
+//npm: run: start: dev: 
+///////////////////
+
+////////////////////
+Dto: is a class that shapes the data we want to receive while creating a new entry for our database. 
+The create-user.dto.ts will contain the attribute we want to receive to create a new user and if those attributes aren’t available the request won’t reach the service layer.
+ In this case, we have only three attributes we want to receive so let’s update the create-user.dto.ts
+ ////////////////////
+
+  ////////////////////
+  The service: layer is the layer in which we implement our business logic,
+   its also this layer that communicates with the layer that interacts 
+   with the database mostly called the Repository layer and the controller layer.
+  ////////////////////
+
+  ////////////////////
+  a resource: is a folder or module that represents a part of your app’s domain. 
+  For each resource of your app, you have a controller, service, dto, and entity.
+  ///////////////////
+
+
